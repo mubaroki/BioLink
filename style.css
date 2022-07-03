@@ -1,0 +1,84 @@
+/* General */
+body {
+    background: linear-gradient(rgba(255,255,255, 0.25), rgba(255,255,255,0.25)), url(./images/email-pattern.webp);
+    background-attachment: fixed;
+    padding: 1rem;
+    color: #212529;
+}
+.container {
+    max-width: 425px;
+}
+.lead {
+    font-weight: 400;
+    font-style: italic;
+}
+main h2 {
+    font-weight: 600;
+    font-size: 1.3em;
+}
+.avatar {
+    width: 105px;
+    height: 105px;
+    border-radius: 100%;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+    border: 2px solid white;
+}
+.widget {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0.72rem;
+    margin-bottom: 1rem;
+}
+.widget a {
+    text-decoration: none;
+}
+.widget img {
+    width: 100%;
+    height: auto;
+}
+.widget p {
+    margin-top: 1rem;
+    text-align: center;
+}
+.widget:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: color 0.3s,background-color 0.3s;
+}
+.widget.social {
+    padding: 0.25rem;
+}
+.widget .social-text {
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: #212529;
+}
+
+
+/* Font Awesome */
+/* .fa, .fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+} */
+.fab:hover {
+    opacity: 0.7;
+}
+.fa-linkedin, .fa-linkedin-square {
+    color: #0077b5;
+}
+.fa-github, .fa-github-square {
+    color: #333;
+}
+.fa-instagram, .fa-instagram-square {
+    color: #bc2a8d;
+}
+.fa-telegram {
+    color: #0088cc;
+}
+.fa-whatsapp {
+    color: #128c7e;
+}
