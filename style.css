@@ -1,5 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
 /* General */
 body {
+    font-family: 'Ubuntu';
     background: linear-gradient(rgba(255,255,255, 0.25), rgba(255,255,255,0.25)), url(./images/email-pattern.webp);
     background-attachment: fixed;
     padding: 1rem;
